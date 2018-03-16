@@ -83,7 +83,7 @@ public class RegisterActivity extends AppCompatActivity implements  View.OnClick
                             Toast.makeText(RegisterActivity.this, "Successfully Registered", Toast.LENGTH_SHORT).show();
                             progressDialog.dismiss();
                         } else {
-                            Toast.makeText(RegisterActivity.this, "Failed", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, "Failed, Your email was Registered", Toast.LENGTH_SHORT).show();
                             progressDialog.dismiss();
                         }
                     }

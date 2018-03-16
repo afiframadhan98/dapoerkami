@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dapoer Kami</string>
+    <string name="title_activity_posting">PostingActivity</string>
 </resources>
