@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Dapoer Kami</string>
     <string name="title_activity_posting">PostingActivity</string>
+    <string name="cooking">"Cooking "</string>
+    <string name="posting">"Posting "</string>
+    <string name="chosen">"Chosen: "</string>
+    <string name="nothing_clicked">onRadioButtonClicked: Nothing clicked.</string>
 </resources>
