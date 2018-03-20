@@ -6,6 +6,56 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="android.dapoerkami.com.dapoerkami.LoginActivity">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/dapoerkami_logo" />
 
-   
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#FF339966"
+        android:onClick="onSignIn"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="Sign In"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#FF339966"
+        android:onClick="onSignUp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="Sign Up"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+
 </LinearLayout>
