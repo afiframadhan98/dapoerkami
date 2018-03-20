@@ -3,8 +3,6 @@
     package="android.dapoerkami.com.dapoerkami">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-feature android:name="android.hardware.camera"></uses-feature>
-    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
@@ -22,10 +20,7 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity
-            android:name=".PostingActivity"
-            android:label="@string/title_activity_posting"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>
