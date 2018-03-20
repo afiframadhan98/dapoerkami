@@ -51,7 +51,7 @@ public class HomeActivity extends AppCompatActivity {
             // apabila memilih Go Posting dan klik Go akan menampilkan pesan Go Posting
         }else if (((RadioButton)findViewById(R.id.rbt_GoPosting)).isChecked()){
             Intent intent = new Intent(this, PostingActivity.class);
-            Toast.makeText(this, "Posting", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Go Posting", Toast.LENGTH_SHORT).show();
             startActivity(intent);
         }else{
             Toast.makeText(this,"Pilih salah satu terlebih dahulu",Toast.LENGTH_SHORT).show();
