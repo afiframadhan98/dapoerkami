@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RemindMeToCook</string>
+    <string name="action_settings">Settings</string>
+    <string name="date_picker">date_picker</string>
+    <string name="time_picker">time_picker</string>
+    <string name="tanggal">tanggal</string>
+    <string name="waktu">waktu</string>
+</resources>
