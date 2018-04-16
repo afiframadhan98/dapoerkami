@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AddReminderActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AlarmCursorAdapter"></activity>
     </application>
 
 </manifest>

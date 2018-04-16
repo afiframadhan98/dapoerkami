@@ -5,4 +5,5 @@
     <string name="time_picker">time_picker</string>
     <string name="tanggal">tanggal</string>
     <string name="waktu">waktu</string>
+    <string name="title_activity_add_reminder">AddReminderActivity</string>
 </resources>
