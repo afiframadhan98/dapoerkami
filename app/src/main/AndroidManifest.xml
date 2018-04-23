@@ -23,7 +23,8 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".CookingActivity" />
         <activity android:name=".PostingActivity" />
-        <activity android:name=".Notification"></activity>
+        <activity android:name=".Notification" />
+
         <service android:name=".FirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -32,7 +33,9 @@
         <service
             android:name=".FirebaseMessagingService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>
